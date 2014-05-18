@@ -38,7 +38,7 @@
     [self.window setRootViewController:self.viewController];
     [self.window makeKeyAndVisible];
     
-    [self customizeInterface];
+//    [self customizeInterface];
     
     return YES;
 }
@@ -67,7 +67,7 @@
 }
 
 - (void)customizeTabBarForController:(RDVTabBarController *)tabBarController {
-    UIImage *finishedImage = [UIImage imageNamed:@"tabbar_selected_background"];
+    UIImage *finishedImage = [UIImage imageNamed:@"1"];
     UIImage *unfinishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
     NSArray *tabBarItemImages = @[@"first", @"second", @"third"];
     
